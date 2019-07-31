@@ -1,4 +1,4 @@
-var name = ["Grace"]
+var name = ["Ada", " Grace", " Kent"]
 var number = ["4"];
 
 function takeANumber(number, name) {
