@@ -1,3 +1,4 @@
+var katzDeliLine = []
 var name = ["Ada", " Grace", " Kent"]
 var number = ["4"];
 
