@@ -5,12 +5,13 @@ return "Welcome, " + name +". You are number "+ position +" in line."
 
 }
 
-function nowServing(katzDeliLine, name) {
-  while (katzDeliLine = 1)
-  return (nowServing.name)
-  name.shift()}
+function nowServing (deliLine){
+var name;
 
-  {
-  while (katzDeliLine < 1) {
-    return("There is nobody waiting to be served!")}
+if(deliLine.length == 0){
+  return "There is nobody waiting to be served!"
+}
+
+name = deliLine.shift()
+return "Currently serving "+ name + "."
 }
