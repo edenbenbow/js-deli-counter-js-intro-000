@@ -24,8 +24,8 @@ function currentLine() {
 return ("The line is currently: " + katzDeliLine + '.' + name.")
 }
 
-if(katzDeliLine.length === 0) {
-    return "The line is currently empty.")
+if (katzDeliLine.length === 0) {
+    return ("The line is currently empty.")
   }
 
 }
