@@ -7,7 +7,10 @@ return "Welcome, " + name +". You are number "+ position +" in line."
 
 function nowServing(katzDeliLine, name) {
   while (katzDeliLine = 1)
-  return (nowServing.name)} {
+  return (nowServing.name)}
+  name.shift()
+
+  {
   while (katzDeliLine < 1) {
     return("There is nobody waiting to be served!")}
 }
