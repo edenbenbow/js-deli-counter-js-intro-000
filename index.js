@@ -18,6 +18,7 @@ return ("Currently serving " + name + ".")
 
 
 function currentLine() {
+  var name;
   var katzDeliLine;
 return("The line is currently: ")
 }
