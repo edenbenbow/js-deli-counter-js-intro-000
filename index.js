@@ -6,8 +6,8 @@ return "Welcome, " + name +". You are number "+ position +" in line."
 }
 
 function nowServing(katzDeliLine, name) {
-while (nowServing()) {
-  return("There is nobody waiting to be served!")
+  while (katzDeliLine < 1) { 
+    return("There is nobody waiting to be served!")}
 }
 }
 
