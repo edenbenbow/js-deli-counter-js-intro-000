@@ -1,7 +1,6 @@
-var katzDeliLine = []
-var name = ["Ada", " Grace", " Kent"]
-var number = ["4"];
+function takeANumber (katzDeliLine, name){
+  var position = katzDeliLine.length+1
+  katzDeliLine.push(name)
+return "Welcome, " + name +". You are number "+ position +" in line."
 
-function takeANumber(number, name) {
-return(`Welcome, ${name}. You are number ${number} in line.`)
 }
